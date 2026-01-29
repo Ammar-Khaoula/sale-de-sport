@@ -7,9 +7,9 @@ setInterval(() => {
     // get random number
     let rondomNember = Math.floor(Math.random() * imageArray.length);
     //change backgrounImage
-    header.style.backgroundImage = 'url("./images/'+ imageArray[rondomNember]+'")';
+    header.style.backgroundImage = 'url("./images/' + imageArray[rondomNember] + '")';
 
-}, 10000);
+}, 1000);
 
 // start header
 
@@ -21,14 +21,14 @@ let preBtn = document.querySelectorAll(".pre-btn");
 
 
 productContainer.forEach((item, i) => {
-    let container = item.getBoundingClientRect();
-    let containerWidth = container.width;
+        let container = item.getBoundingClientRect();
+        let containerWidth = container.width;
 
-    nextBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    });
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    });
-})
-/*end section*************************/
+        nextBtn[i].addEventListener('click', () => {
+            item.scrollLeft += containerWidth;
+        });
+        preBtn[i].addEventListener('click', () => {
+            item.scrollLeft -= containerWidth;
+        });
+    })
+    /*end section*************************/

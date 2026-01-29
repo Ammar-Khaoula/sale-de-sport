@@ -1,0 +1,196 @@
+/*start header*/
+
+.header {
+    min-height: 40vh;
+    background-image: url('./images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.links {
+    justify-content: space-between;
+}
+
+.links li a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.links li a:hover {
+    color: #fdc0e2;
+    font-size: 13px;
+}
+
+.contenuHeader {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenuHeader h1 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.contenuHeader p {
+    font-size: 12px;
+}
+
+
+/*end header*/
+
+
+/*start nav*/
+
+nav h3 {
+    font-size: 14px;
+}
+
+.listSport {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.listSport .cardio {
+    width: 100%;
+    height: 270px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.listSport .yoga {
+    width: 100%;
+    height: 270px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.listSport .dance {
+    width: 100%;
+    height: 270px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/*end nav*/
+
+
+/*start section*/
+
+.section {
+    position: relative;
+    overflow: hidden;
+    padding: 5px 0px;
+}
+
+.product-container {
+    padding: 0 2vw;
+}
+
+.product-card {
+    width: 100%;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.product-category {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.product-img {
+    width: 100%;
+    height: 255px;
+}
+
+.product-thumb {
+    width: 100%;
+    height: 255px;
+}
+
+.pre-btn i,
+.nxt-btn i {
+    font-size: 40px;
+}
+
+
+/*end section*/
+
+
+/*section tarif*/
+
+.tarif {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.tarif-menu {
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.tarif-menu h3 {
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.tarif-menu span {
+    margin-left: 5px;
+}
+
+.tarif-menu ul li {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tarif-menu ul li:hover {
+    font-size: 12px;
+}
+
+
+/*section contact*/
+
+.container-contact {
+    padding: 2rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.form-control input {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.form-control label {
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.button-btn {
+    margin: 1rem auto;
+    padding: .5rem 1.5rem;
+}
